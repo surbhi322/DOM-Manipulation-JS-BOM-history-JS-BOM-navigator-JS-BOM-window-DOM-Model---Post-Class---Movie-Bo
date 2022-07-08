@@ -44,20 +44,7 @@ main{
     border-radius: 50%;
     border: 10px solid #ccc;
 }
-#loader::before{
-    box-sizing: border-box;
-    position: absolute;
-    content: "";
-    height: calc(100% + 22px);
-    width: calc(100% + 22px);
-    top: -11px;
-    left: -11px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #081563 transparent transparent transparent;
-    animation: rotate .6s linear infinite;
-}
+
 .movie-img-wrapper{
     background-size: cover;
     width: auto;
